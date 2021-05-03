@@ -44,7 +44,7 @@ h4 {
   text-transform: capitalize;
   letter-spacing: 2px;
   position: relative;
-  color: #425bb5;
+  color: #6d96ca;
   margin-left: 40px;
   font-weight: 700;
 }
@@ -56,7 +56,7 @@ h4:before {
   content: "";
   display: block;
   height: 2px;
-  background: #425bb5;
+  background: #6d96ca;
   top: 9px;
 }
 
@@ -185,7 +185,6 @@ body {
     transform: rotate(359deg);
   }
 }
-
 @keyframes rotation {
   from {
     -webkit-transform: rotate(0);
@@ -243,14 +242,14 @@ nav li {
 nav li a {
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #444;
+  color: #c8c3bc;
   font-size: 11px;
   font-weight: bold;
 }
 
 .bg-nav {
-  background: #fff;
-  border-bottom: 1px solid #f3f3f3;
+  background: #181a1b;
+  border-bottom: 1px solid #33383a;
 }
 
 .bg-nav ul {
@@ -258,26 +257,29 @@ nav li a {
 }
 
 a:focus {
-  color: #444;
+  color: #6d96ca;
   text-decoration: none;
 }
 
 a:hover {
-  color: #425bb5;
+  color: #6d96ca;
   text-decoration: none;
 }
 
 a.active {
-  color: #425bb5;
+  color: #6d96ca;
 }
 
 /* home section
 ==================================================*/
 
 #home {
-  background: url(../img/background.jpg);
   background-size: cover;
   height: 100vh;
+  color: #c8c3bc;
+}
+#home-image {
+  background: url(../img/background2.jpg);
 }
 
 .table-cell {
@@ -295,6 +297,8 @@ a.active {
 
 #about {
   padding: 100px 0;
+  background: #181a1b;
+  color: #f3f3f3;
 }
 
 .about-img-div img {
@@ -305,7 +309,7 @@ a.active {
   position: absolute;
   border: 10px solid #425bb5;
   width: 400px;
-  height: 400px;
+  height: 415px;
   top: 40px;
   left: 50px;
   z-index: 1;
@@ -316,7 +320,8 @@ a.active {
 
 #experience {
   padding: 100px 0;
-  background: #f3f3f3;
+  background: #1f2123;
+  color: #c8c3bc;
 }
 
 .experience-row {
@@ -334,7 +339,7 @@ a.active {
 }
 
 .experience-row p {
-  color: #888;
+  color: #c8c3bc;
   margin-top: 20px;
   font-size: 15px;
 }
@@ -622,7 +627,8 @@ a.active {
 
 #contact {
   padding: 100px 0;
-  background: #f3f3f3;
+  background: #1f2123;
+  color: #c8c3bc;
 }
 
 #contact-form input,
@@ -630,6 +636,8 @@ a.active {
   height: 50px;
   margin-bottom: 10px;
   border-radius: 0;
+  background: #181a1b;
+  border-color: #33383a;
 }
 
 #contact-form label {
@@ -751,6 +759,12 @@ fieldset {
 @media (max-width: 991px) {
   .portfolio .categories-grid .categories ul li a {
     padding: 0 2px;
+  }
+  .section-about {
+    margin-bottom: 400px;
+  }
+  .about-img-div {
+    margin-top: -100px;
   }
 }
 
