@@ -321,12 +321,28 @@ a.active {
   z-index: 1;
 }
 
+/* Education section
+==================================================*/
+#education {
+  padding: 70px 0;
+  background: #1f2123;
+  color: #c8c3bc;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* experience section
 ==================================================*/
 
 #experience {
-  padding: 100px 0;
-  background: #1f2123;
+  padding: 50px 0;
+  background: #2a2b2c;
   color: #c8c3bc;
 }
 
