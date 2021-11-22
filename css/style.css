@@ -329,10 +329,7 @@ a.active {
   color: #c8c3bc;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
+h4 a {
   text-decoration: none;
   color: inherit;
 }
